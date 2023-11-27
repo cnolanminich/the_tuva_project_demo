@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dbt-duckdb = "*"
+python-certifi-win32 = "*"
+fsspec = "*"
+s3fs = "*"
+buenavista = "*"
+pyarrow = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

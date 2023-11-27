@@ -1,0 +1,41 @@
+# sources:
+#   - name: tuva_synthetic_data
+#     meta:
+#       external_location: "s3://tuva-public-resources/tuva_synthetic_data/{name}.csv"
+#     tables:
+#       - name: eligibility
+#       - name: medical_claim
+#       - name: pharmacy_claim
+  # - name: terminology
+  #   meta:
+  #     external_location: "s3://tuva-public-resources/terminology/{name}.csv"
+  #   tables:
+  #     - name: calendar
+  #     - name: loinc
+  #     - name: loinc_deprecated_mapping
+  #     - name: icd_10_pcs
+  #     - name: icd_10_cm
+  # - name: provider_data
+  #   meta:
+  #     external_location: "s3://tuva-public-resources/provider_data/{name}.csv"
+  #   tables:
+  #     - name: other_provider_taxonomy
+  #     - name: provider
+  # - name: ccsr
+  #   meta:
+  #     external_location: "s3://tuva-public-resources/value-sets/{name}.csv"
+  #   tables:
+  #     - name: dxccsr_v2023_1_cleaned_map
+  #     - name: prccsr_v2023_1_cleaned_map
+  #     - name: icd_10_cm_to_ccs
+  #     - name: icd_10_pcs_to_ccs
+  #     - name: icd_10_cm_to_ccs
+  # - name: ed_classification
+  #   meta:
+  #     external_location: "s3://tuva-public-resources/value-sets/{name}.csv"
+  #   tables:
+  #     - name: dxccsr_v2023_1_cleaned_map
+  #     - name: prccsr_v2023_1_cleaned_map
+  #     - name: icd_10_cm_to_ccs
+  #     - name: icd_10_pcs_to_ccs
+  #     - name: icd_10_cm_to_ccs
